@@ -1,0 +1,13 @@
+.Trending_heading {
+    font-size: var(--big-heading);
+    font-family: var(--font-family);
+}
+.trending-smallpara{
+    font-size: var(--small-font);
+}
+
+@media only screen and (max-width:768px) {
+    .bottom_btn {
+        width: 100%;
+    }
+}

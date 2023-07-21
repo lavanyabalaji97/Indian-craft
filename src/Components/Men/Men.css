@@ -1,0 +1,7 @@
+.men-smallpara{
+    font-size: var(--small-font);
+}
+.men-heading{
+    font-size: var(--big-heading);
+    font-family: var(--font-family);
+}

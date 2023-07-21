@@ -1,0 +1,84 @@
+.footer_padding {
+    background-color: #3e402d;
+    color: white;
+    padding: 90px;
+
+}
+
+.footer_heading {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.footer_lists {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer_lists a {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.svg_icons {
+    margin-top: 70px;
+}
+
+.accordion-body {
+    color: white;
+    background-color: #3e402d;
+}
+
+.accordion {
+    border-radius: none;
+    border: none;
+}
+
+.accordion .accordion-item {
+    border: 0;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button {
+    box-shadow: none !important;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .footer_end {
+        padding: 0px;
+    }
+
+
+    .accordion .accordion-button::after {
+        background-color: #f9f2ea;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    }
+
+    .accordion .accordion-button:not(.collapsed)::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+    }
+
+    .accordion-body {
+        color: white;
+        background-color: #3e402d;
+    }
+
+    .accordion {
+        border-radius: none;
+        border: none;
+    }
+
+    .accordion .accordion-item {
+        border: 0;
+    }
+
+    .accordion-button:not(.collapsed),
+    .accordion-button {
+        box-shadow: none !important;
+    }
+   
+}

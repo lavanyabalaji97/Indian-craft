@@ -1,0 +1,272 @@
+{
+    "Trending": [
+       
+        {
+            "id": 1,
+            "title": "Occasion Wear. Georgette Lehariya Kurta Set With Beadwork - Royal",
+            "price": "₹ 3,480 INR",
+            "img": "/Asserts/blue_girl.webp"
+        },
+        {
+            "id": 2,
+            "title": "Blue Pottery Blue & Indigo Blue Decorative Wall Plate (Set of 2) -",
+            "price": "₹ 3,120 INR",
+            "img": "/Asserts/plate.webp"
+        },
+        {
+            "id": 3,
+            "title": "Handwoven, Organic Kala Cotton Shirt - Grey",
+            "price": "₹ 2,490 INR",
+            "img": "/Asserts/boy-img.webp"
+        },
+        {
+            "id": 4,
+            "title": "Pure Silver Traditional Maharashtrian Neckpiece - Taramndal",
+            "price": "₹ 7,590 INR",
+            "img": "/Asserts/face.webp"
+        },
+        {
+            "id": 5,
+            "span": "UTTAR PRADESH ",
+            "title": "Exclusive Handwoven Kilim Rug (8 x 5 ft)",
+            "price": "₹ 36,930 INR",
+            "img": "/Asserts/some.webp"
+        },
+        {
+            "id": 6,
+            "span": "Chhattisgarh •",
+            "title": "The India Craft House Bastar Tribal Bird Figurine (Set of 2)",
+            "price": "₹ 1,330 INR",
+            "img": "/Asserts/duck.webp"
+        },
+        {
+            "id": 7,
+            "span": "Uttar Pradesh • Marble",
+            "title": "Marble Inlay Round Plate Curio with Stand",
+            "price": "₹ 7,850 INR",
+            "img": "/Asserts/plate.webp"
+        },
+        {
+            "id": 8,
+            "title": "Elegance in Linen. Pure Handwoven Linen Saree - Black & Dull Gold (BP)",
+            "price": "₹ 3,110 INR",
+            "img": "/Asserts/black_saree.webp"
+        }
+    ],
+    "choice": [
+       
+        {
+            "id": 1,
+            "title": "Sanganeri Block Printed Chanderi Slip Kurta Set With Beadwork - Wine",
+            "price": "₹ 3,710 INR",
+            "img": "/Asserts/red.webp"
+        },
+        {
+            "id": 2,
+            "span": " Karnataka • ",
+            "title": "Lambani Tribal Neckpiece - Chanda Titri",
+            "price": "₹ 3,480 INR",
+            "img": "/Asserts/face.webp"
+        },
+        {
+            "id": 3,
+            "span": " Macramé",
+            "title": "Handknotted Crochet Tote Bag - Round, White & Yellow",
+            "price": "₹ 3,480 INR",
+            "img": "/Asserts/bag.webp"
+        },
+        {
+            "id": 4,
+            "title": "Bagru Block Printed & Running Stitch Kurta & Pants - Blue Peacocks (Set of",
+            "price": "₹ 3,110 INR ",
+            "img": "/Asserts/blue.webp"
+        },
+        {
+            "id": 5,
+            "title": "Elegance in Linen. Handwoven Linen Saree - Dark Pink & Dull Gold Butis",
+            "price": "₹ 3,110 INR ",
+            "img": "/Asserts/saree.webp"
+        },
+        {
+            "id": 6,
+            "title": "Bagru Block Printed & Beadwork Cotton Wrap Skirt & Sleeveless Top",
+            "price": "₹ 1,593 INR",
+            "img": "/Asserts/side.webp"
+        },
+        {
+            "id": 7,
+            "title": "Exclusive, Fine Kashmiri Hand Embroidered Chanderi Kurta / Dres",
+            "price": "₹ 2,710 INR ",
+            "img": "/Asserts/kurta.webp"
+        },
+        {
+            "id": 8,
+            "title": "Fine, Soft Himachal Wool Stole With Woven Border",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/jacket.webp"
+        }
+    ],
+    "Homeproducts": [
+        
+        {
+            "id": 1,
+            "span": " Copper Craft ",
+            "title": "Tambat Handbeaten Copper Tumblers (Set of 6)",
+            "price": "₹ 3,710 INR",
+            "img": "/Asserts/glass.webp"
+        },
+        {
+            "id": 2,
+            "title": "Kalighat Painting With Mount - The Couple (25 x 17)",
+            "price": "₹ 3,480 INR",
+            "img": "/Asserts/painting.webp"
+        },
+        {
+            "id": 3,
+            "span": "Dhokra Metal",
+            "title": "Dhokra Craft Curio - Farmer",
+            "price": "₹ 3,480 INR",
+            "img": "/Asserts/steel-face.webp"
+        },
+        {
+            "id": 4,
+            "span": "Jute",
+            "title": "Handwoven Jute Table Runner & Mats (Set of 5) - Dull Mustard & Rust",
+            "price": "₹ 3,110 INR ",
+            "img": "/Asserts/table.webp"
+        },
+        {
+            "id": 5,
+            "title": "Kashmiri Crewel Work Cushion Covers - Moroccan Appeal, (Set of",
+            "price": "₹ 3,110 INR ",
+            "img": "/Asserts/pillow.webp"
+        },
+        {
+            "id": 6,
+            "title": "Handcrafted Sabai Grass Laundry Basket",
+            "price": "₹ 1,593 INR",
+            "img": "/Asserts/red-bag.webp"
+        },
+        {
+            "id": 7,
+            "span": " Andhra Pradesh • Coconut Craft",
+            "title": "Coconut Craft Table Lamp",
+            "price": "₹ 2,710 INR ",
+            "img": "/Asserts/light.webp"
+        },
+        {
+            "id": 8,
+            "span": "Chhattisgarh •",
+            "title": "Bastar Tribal Art - Candle Holders - Deer (Set of 2)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/horse.webp"
+        }
+    ],
+    "craft": [
+        {
+            "id": 1,
+            "span": " Dhokra Metal Craft",
+            "title": "Dhokra Metal Craft Curio - Village Woman ",
+            "price": " ₹ 4,740 INR ",
+            "img": "/Asserts/steel.webp"
+        },
+        {
+            "id": 2,
+            "span": " Dhokra Metal Craft",
+            "title": "Bastar Tribal Art - Candle Holders - Deer (Set of 2)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/steel2.webp"
+        }
+    ],
+    "men": [
+       
+        {
+            "id": 1,
+            "span": " Rajasthan •",
+            "title": "Summer Breeze - Tie & Dye Cotton Shirt - Dull Blue",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/blueshirt.webp"
+        },
+        {
+            "id": 2,
+            "span": "Rajasthan • Jawaja Leather",
+            "title": "Handcrafted Leather Cross Body Bag With Hand Stitch Detail",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/handbag.webp"
+        },
+        {
+            "id": 3,
+            "span": " Assorted Leather",
+            "title": "Rugged Leather Duffler Bag (Length-22)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/sunglassboy.webp"
+        },
+        {
+            "id": 4,
+            "title": "Organic Kala Cotton Shirt - Off White",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/whiteboy.webp"
+        }
+    ],
+    "children": [
+       
+        {
+            "id": 1,
+            "span": " Uttar Pradesh • Toys & Gamesing",
+            "title": "Handcrafted Snakes & Ladders Board Game",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/game.webp"
+        },
+        {
+            "id": 2,
+            "span": "Jute Craft",
+            "title": "Jute Craft - Doll Keychain (Set of 2)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/toys.webp"
+        },
+        {
+            "id": 3,
+            "span": "Uttar Pradesh •",
+            "title": "Handcrafted Wooden Puzzles With Box (Set of 3)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/box.webp"
+        },
+        {
+            "id": 4,
+            "span": "Uttar Pradesh • Toys & Gamesing",
+            "title": "Handcrafted Wooden Puzzles With Box (Set of 3)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/handcrafted.webp"
+        }
+    ],
+    "work": [
+      
+        {
+            "id": 1,
+            "span": " Bidri ",
+            "title": "Bidri Craft Set - Paper Cutter & Paper Weight",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/sward.webp"
+        },
+        {
+            "id": 2,
+            "span": " Dhokra Metal ",
+            "title": "Dhokra Craft Stationery Stand, The Web",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/stand.webp"
+        },
+        {
+            "id": 3,
+            "title": "Handcrafted Leather Diary with Cutwork - Tan & Multicolored",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/wallet.webp"
+        },
+        {
+            "id": 4,
+            "span": "Karnataka • Bidri",
+            "title": "Phad Art - Desk Set (Set of 2)",
+            "price": "₹ 2,830 INR ",
+            "img": "/Asserts/art.webp"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+.section,
+.title-name {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    /* width: 380px; */
+}
+
+.section,
+.content {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #27221d;
+    padding-top: 35px;
+    display: block;
+}
+
+.section,
+.marginleft {
+    margin-left: 10px;
+}
+
+.section,
+.paddingleft {
+    padding-left: 110px;
+}
+
+.section,
+.margin40 {
+    margin-left: 40px;
+}
+
+.section,
+.padding_100 {
+    padding: 100px;
+}
+
+.section,
+.count11 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.section,
+.count-text {
+    font-size: 13px;
+}
+
+.section,
+.small-title {
+    color: black;
+    font-size: 16px;
+}
+
+.section,
+.left-side {
+    padding-top: 100px;
+}
+
+.section,
+.tree-image {
+    margin-left: 0;
+}
+
+.section,
+.rowimage {
+    background-image: url('../../Asserts/tree.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section,
+    .rowimage {
+        background-size: 120px;
+        background-position-y: bottom;
+    }
+
+    .section,
+    .marginleft {
+        width: 43%;
+    }
+
+    .section,
+    .title-name {
+        font-size: 36px;
+    }
+
+    .section,
+    .content {
+        font-size: 16px;
+    }
+
+    .section,
+    .count11 {
+        font-size: 36px;
+        margin: 5px;
+    }
+
+    .section,
+    .paddingleft {
+        padding-left: 0px;
+    }
+
+    .section,
+    .margin40 {
+        margin-left: 0px;
+    }
+
+    .section,
+    .count-text {
+        font-size: 13px;
+    }
+
+    .section,
+    .counting {
+        margin-right: 20px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+
+    .section,
+    .main-content {
+        padding: 0px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .section,
+    .title-name {
+        font-size: 36px;
+    }
+
+    .section,
+    .content {
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        color: #27221d;
+        padding-top: 35px;
+        display: block;
+    }
+
+    .section,
+    .rowimage {
+        background-size: 234px 380px;
+    }
+
+    .section,
+    .paddingleft {
+        padding-left: 55px;
+    }
+
+}

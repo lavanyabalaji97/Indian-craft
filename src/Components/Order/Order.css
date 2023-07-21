@@ -1,0 +1,79 @@
+
+
+.learn_btn {
+    border: 1px solid black;
+    padding: 15px 28px;
+    color: white;
+    background-color: black;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.touch_btn {
+    border: 1px solid black;
+    padding: 15px 28px;
+    color: black;
+    margin-left: 15px;
+}
+
+.touch_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.order_para {
+    font-size: var(--font-size);
+    padding-bottom: 28px;
+}
+
+.order-smallpara {
+    font-size: var(--small-font);
+}
+
+.order_heading {
+    font-size: var(--big-heading);
+    font-family: var(--font-family);
+    width: 278px;
+}
+
+@media only screen and (max-width:768px) {
+    .touch_btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .order_btns {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .order_para{
+        font-size:16px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992) {
+    .elephant_image img {
+        width: 220px;
+        height: 346px;
+        padding-left: 0px;
+    }
+
+    .order_para {
+        font-size: var(--small-font);
+    }
+
+    .order_heading {
+        font-size: 36px;
+    }
+
+    .mt-6 {
+        margin-top: 48px !important;
+    }
+
+    .order_btns {
+        padding-bottom: 51px;
+    }
+}

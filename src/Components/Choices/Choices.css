@@ -1,0 +1,7 @@
+.choice_smallpara{
+    font-size: var(--small-font);
+}
+.choice-heading{
+    font-size: var(--big-heading);
+    font-family: var(--font-family);
+}
