@@ -1,29 +1,52 @@
-.footer_padding {
+.footer_top {
     background-color: #3e402d;
     color: white;
-    padding: 90px;
-
+    padding: 50px;
 }
 
-.footer_heading {
+.right-title {
+    color: #ffffff;
     font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin: 0px;
     text-transform: uppercase;
+
 }
 
-.footer_lists {
+li {
     list-style-type: none;
-    padding-left: 0px;
+
 }
 
-.footer_lists a {
+li a {
+    text-decoration: none;
     color: white;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: capitalize;
+
 }
 
-.svg_icons {
-    margin-top: 70px;
+.footer-title {
+    margin: 0 0 70px;
+    font-size: 22px;
+    color: #f9f2ea;
+    line-height: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer_end {
+    background-color: #313323;
+    padding: 20px;
+}
+
+.india-craft {
+    color: white;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: white;
 }
 
 .accordion-body {
@@ -40,18 +63,29 @@
     border: 0;
 }
 
+.accordion-button {
+    background-color: #3e402d;
+}
+
 .accordion-button:not(.collapsed),
 .accordion-button {
     box-shadow: none !important;
 }
 
-
-
-@media only screen and (max-width:768px) {
-    .footer_end {
+@media only screen and (max-width: 480px) {
+    .footer_top {
         padding: 0px;
     }
 
+    .accordion-button::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+
+    }
+
+    .craft_title {
+        margin-top: 58px;
+        margin-bottom: 60px;
+    }
 
     .accordion .accordion-button::after {
         background-color: #f9f2ea;
@@ -62,23 +96,4 @@
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
     }
 
-    .accordion-body {
-        color: white;
-        background-color: #3e402d;
-    }
-
-    .accordion {
-        border-radius: none;
-        border: none;
-    }
-
-    .accordion .accordion-item {
-        border: 0;
-    }
-
-    .accordion-button:not(.collapsed),
-    .accordion-button {
-        box-shadow: none !important;
-    }
-   
 }

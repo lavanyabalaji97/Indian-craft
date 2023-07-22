@@ -51,7 +51,8 @@
     background-position-y: bottom;
 }
 
-ul li a {
+.explore,
+.unordered li a {
     font-size: 24px;
     line-height: 30px;
     color: #27221d;

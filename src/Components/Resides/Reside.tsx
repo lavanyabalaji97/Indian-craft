@@ -5,12 +5,14 @@ import '../Resides/Reside.css'
 
 function Reside() {
     return (
-        <div className='Reside container mt-5'>
+        <div className='Reside container mt-5 mb-5'>
             <div className="row">
                 <p className="reside-smallpara">For the home</p>
-                <div className="col-lg-12 col-md-12 col-12  d-lg-flex justify-content-between">
-                    <h1 className="reside-heading">Where the heart Resides</h1>
-                    <div className="d-none d-lg-flex">
+                <div className="col-lg-12 col-md-12 col-12  d-lg-flex justify-content-between mb-5">
+                    <div>
+                        <h1 className="reside-heading">Where the heart  Resides</h1>
+                    </div>
+                    <div className="d-none d-lg-block">
                         <Button />
                     </div>
                 </div>

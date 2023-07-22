@@ -7,7 +7,7 @@ function Work() {
         <div className='Work container mt-5'>
             <div className="row">
                 <p className="work-smallpara">For Work</p>
-                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between">
+                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between mb-5">
                     <h1 className="work-heading">Work in style</h1>
                     <div className="d-none d-lg-flex">
                         <Button />

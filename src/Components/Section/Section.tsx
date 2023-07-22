@@ -1,9 +1,9 @@
 import '../Section/Section.css'
 
-function Main() {
+function Section() {
     return (
-        <div className='section rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
-            <div className=" container padding_100">
+        <div className='rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
+            <div className="container padding_100">
                 <div className="row">
                     <div className="d-lg-flex d-md-flex justify-content-center">
                         <div className="col-lg-5 col-md-6 col-12 marginleft">
@@ -40,4 +40,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Section;

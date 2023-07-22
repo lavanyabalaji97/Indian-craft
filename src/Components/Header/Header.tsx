@@ -18,7 +18,7 @@ function Header() {
                     <div className="Header container">
                         <div className="row">
                             <div className="col-lg-9 col-md-12 col-12 d-lg-inline">
-                                <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                                <nav className="navbar navbar-expand-lg navbar-light bg-light">
                                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="navbar-toggler-icon"></span>
                                     </button>

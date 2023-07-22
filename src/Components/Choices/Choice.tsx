@@ -7,8 +7,8 @@ function Choice() {
         <div className='choices container mt-5'>
             <div className="row">
                 <p className="choice_smallpara">For Women</p>
-                <div className="col-lg-12 col-md-6 d-lg-flex col-12 justify-content-between">
-                    <h3 className="choice-heading">Choices for the Season</h3>
+                <div className="col-lg-12 col-md-6 d-lg-flex col-12 justify-content-between mb-5">
+                    <h3 className="choice-heading">Choices for <br/> the Season</h3>
                     <div className="d-lg-block d-none">
                         <Button />
                     </div>

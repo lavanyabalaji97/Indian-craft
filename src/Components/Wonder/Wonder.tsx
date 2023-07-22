@@ -9,9 +9,9 @@ function Wonder() {
         <div className='Trending container mt-5'>
             <div className="row">
                 <p className="wonder-smallpara">For Children</p>
-                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between">
-                    <h1 className="wonder-heading">The Wonder of the growing Years</h1>
-                    <div className="d-none d-lg-flex">
+                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between mb-5 ">
+                    <h1 className="wonder-heading ">The Wonder of <br/> the growing Years</h1>
+                    <div className="d-none d-lg-block">
                         <Button />
                     </div>
                 </div>

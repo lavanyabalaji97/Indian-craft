@@ -8,9 +8,9 @@ function Men() {
         <div className='men container'>
             <div className="row" style={{marginTop:"68px"}}>
                 <p className="men-smallpara">For Men</p>
-                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between">
+                <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between mb-5">
                     <h3 className="men-heading">Things for Men</h3>
-                    <div className="d-none d-lg-flex">
+                    <div className="d-none d-lg-block">
                         <Button />
                     </div>
                 </div>
