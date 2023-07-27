@@ -1,12 +1,12 @@
-.header, .para {
+.para {
     background-color: rgb(49, 51, 23);
     padding: 10px;
     color: white;
     text-align: center;
 }
 
-.header, .back-img {
-    background-image: url('../../Asserts/lady.webp');
+.back-img {
+    background-image: url("../../Asserts/lady.webp");
     height: 800px;
     width: 750px;
     color: white;
@@ -15,47 +15,47 @@
     background-size: cover;
 }
 
- .header, .small-link {
+.small-link {
     text-decoration: none;
     color: white;
     background-color: black;
     padding: 20px;
 }
 
-.header, .small-img {
+.small-img {
     height: 200px;
     width: 200px;
 }
 
-.header, .curouselcontainer {
+.curouselcontainer {
     width: 560px !important;
 }
 
-.header, .small-heading {
+.small-heading {
     font-size: 68px;
     font-weight: bold;
     padding: 20px;
     font-family: sans-serif;
 }
 
-.header, .align-center {
+.align-center {
     padding: 73px;
 }
 
-.header, .navbar .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link {
     color: #000000;
     font-size: 1.1em;
 }
 
-.header, .navbar .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover {
     color: #000000;
 }
 
-.header, .navbar .navbar-nav .nav-item {
+.navbar .navbar-nav .nav-item {
     position: relative;
 }
 
-.header, .navbar .navbar-nav .nav-item::after {
+.navbar .navbar-nav .nav-item::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -68,13 +68,13 @@
     transition: all 0.5s;
 }
 
-.header, .underline {
+.underline {
     display: inline;
     position: relative;
     overflow: hidden;
 }
 
-.header, .underline:after {
+.underline:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -88,134 +88,136 @@
     transition-timing-function: ease-out;
 }
 
-.header, .underline:hover:after,
+.underline:hover:after,
 .underline:focus:after,
 .underline:active:after {
     right: 0;
 }
 
-.header, .navbar .navbar-nav .nav-item:hover::after {
+.navbar .navbar-nav .nav-item:hover::after {
     width: 100%;
 }
 
-.header, .navbtn {
+.navbtn {
     border: none;
-    margin: 10px;
 }
 
-.header, .small-section {
+.small-section {
     padding: 0px 38px 77px 38px;
 }
 
-.header, .small-heading {
+.small-heading {
     padding: 20px 48px 20px 0px;
     font-size: 70px;
 }
 
-.header, .small-para {
-    font: 20px FuturaPT-Book;
+.small-para {
+    font-size: 20px;
     line-height: 1.5;
     margin: 0px 0px 40px;
 }
 
-.header, .navbar-top {
+.navbar-top {
     position: sticky;
     top: 0;
 }
 
-.header, .logo-heading {
+.logo-heading {
     margin: 20px 63px 60px 105px;
 }
 
-.header, .logo {
+.logo {
     margin-left: 30px;
 }
 
-.header, .shop_nowbtn {
+.shop_nowbtn {
     padding: 12px 28px;
     background-color: #313323;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
 }
 
-.header, .navbar-sticky {
+.navbar-sticky {
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
 @media only screen and (min-width: 992px) {
-    .header, .navbar {
+    .navbar {
         padding: 0;
     }
 
-    .header, .navbar .navbar-brand {
+    .navbar .navbar-brand {
         padding: 0 0.7em;
     }
 
-    .header, .navbar .navbar-nav .nav-item {
+    .navbar .navbar-nav .nav-item {
         margin: 0 1em;
+    }
+    .navbar-collapse{
+        margin-right: 247px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .header, .small-img {
+    .small-img {
         height: 135px;
         width: 137px;
     }
 
-    .header, .small-heading {
+    .small-heading {
         font-size: 48px;
     }
 
-    .header, .small-para {
+    .small-para {
         font-size: 15px;
         line-height: 22px;
         margin: 0px 26px 35px 0px;
     }
 
-    .header, .logo-heading {
+    .logo-heading {
         margin: 0px;
     }
 
-    .header, .small-section {
+    .small-section {
         padding: 0px;
     }
 
-    .header, .back-img {
+    .back-img {
         background-image: none;
         height: 600px;
         margin-bottom: 20px;
     }
 
-    .header, .shop_nowbtn {
+    .shop_nowbtn {
         width: 100%;
     }
 
-    .header, .carousel {
+    .carousel {
         margin-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 770px) and (max-width: 1125px) {
-    .header, .curouselcontainer {
+    .curouselcontainer {
         width: 372px !important;
     }
 
-    .header, .logo-heading {
+    .logo-heading {
         margin: 0px;
     }
 
-    .header, .small-heading {
+    .small-heading {
         font-size: 40px;
     }
 
-    .header, .back-img {
+    .back-img {
         background-size: 405px 675px;
         height: 675px;
     }
 
-    .header, .small-section {
+    .small-section {
         padding: 0px;
     }
 }

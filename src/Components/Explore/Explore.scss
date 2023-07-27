@@ -1,0 +1,114 @@
+    
+    .explore-shopping a {
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        padding: 12px 28px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .explore-shopping a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .explore-top {
+        margin-top: 100px;
+    }
+
+    .explore-unordered {
+        list-style-type: none;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .explore-unordered li>a {
+        text-decoration: none;
+        color: black;
+        padding: 20px 0px;
+        font-size: 24px;
+        border-bottom: 1px solid black;
+    }
+
+    .explore-heading {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+        width: 300px;
+        
+    }
+
+    .explore-image {
+        background-image: url('../../../public/Asserts/twohorses.webp');
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        width: 200px;
+        background-size: 450px 450px;
+        background-position-x: right;
+        background-position-y: bottom;
+    }
+
+    .explore-unordered li a {
+        font-size: 24px;
+        line-height: 30px;
+        color: #27221d;
+        padding: 20px 0;
+        display: block;
+    }
+
+    .explore ul {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+    .explore-special {
+        border-top: 1px solid black;
+    }
+
+    .explore li svg {
+        margin: 5px;
+    }
+    .explore-padding{
+        padding: 20px 50px;
+    }
+
+    @media only screen and (max-width:768px) {
+
+        .explore-image {
+            background-size: 300px;
+            height: 1000px;
+        }
+
+        .explore-heading {
+            font-size: 36px;
+            line-height: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+
+        .explore-shopping {
+            position: relative;
+            top: 567px
+        }
+
+        .explore-unordered {
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .explore-shopping {
+            position: relative;
+            top: 537px;
+        }
+    }
+
+    @media only screen and (min-width:768px) and (max-width: 992px) {
+        .explore-image {
+            background-size: 400px 300px;
+        }
+    }

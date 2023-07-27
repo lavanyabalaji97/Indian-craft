@@ -6,7 +6,7 @@ import '../Wonder/Wonder.css'
 
 function Wonder() {
     return (
-        <div className='Trending container mt-5'>
+        <div className='Wonder container mt-5'>
             <div className="row">
                 <p className="wonder-smallpara">For Children</p>
                 <div className="col-lg-12 col-md-6 col-12 d-lg-flex justify-content-between mb-5 ">
@@ -25,7 +25,7 @@ function Wonder() {
                     }
                 </div>
                 <div className="d-md-none d-sm-block col-12 mb-5">
-                    <button className="button w-100">See all</button>
+                    <button className="secondary-button w-100">See all</button>
                 </div>
             </div>
         </div>

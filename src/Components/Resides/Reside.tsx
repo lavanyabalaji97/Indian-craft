@@ -26,7 +26,7 @@ function Reside() {
                     }
                 </div>
                 <div className="d-md-none d-sm-block col-12 mb-5">
-                    <button className="button w-100">See all</button>
+                    <button className="secondary-button w-100">See all</button>
                 </div>
             </div>
         </div>

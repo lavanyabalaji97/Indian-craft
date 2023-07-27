@@ -1,4 +1,4 @@
-import '../Explore/Explore.css';
+import '../Explore/Explore.scss';
 
 function Explore() {
     return (
@@ -6,22 +6,22 @@ function Explore() {
             <div className="row">
                 <div className="explore-image">
                     <div className="col-md-8 ">
-                        <div className="d-md-flex justify-content-between top  mb-4">
+                        <div className="d-md-flex justify-content-between explore-top  mb-4">
                             <div>
-                                <h1 className='ex-heading'>Explore our  collections</h1>
+                                <h1 className='explore-heading'>Explore our  collections</h1>
                             </div>
-                            <div className='shopping'>
+                            <div className='explore-shopping'>
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
                         <div className='d-md-flex justify-content-between'>
-                            <ul className='unordered'>
-                                <li className='special'><a href="">Women</a></li>
+                            <ul className='explore-unordered'>
+                                <li className='explore-special'><a href="">Women</a></li>
                                 <li><a href="">Kids</a></li>
                                 <li><a href="">Work</a></li>
                             </ul>
-                            <ul className='unordered'>
-                                <li className='special'><a href="">Men</a></li>
+                            <ul className='explore-unordered'>
+                                <li className='explore-special'><a href="">Men</a></li>
                                 <li><a href="">Home & Living</a></li>
                                 <li><a href="">Gifts</a></li>
                             </ul>

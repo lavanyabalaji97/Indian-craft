@@ -1,7 +1,8 @@
 .men-smallpara{
-    font-size: var(--small-font);
+    font-size: 14px;
 }
 .men-heading{
-    font-size: var(--big-heading);
-    font-family: var(--font-family);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700px;
 }

@@ -8,7 +8,7 @@ function Trending() {
         <div className='Trending container mt-5'>
             <div className="row">
                 <div className="col-lg-12 col-md-6 col-12 mt-5 mb-5">
-                    <p className='trending-smallpara'>For this season</p>
+                    <p className='Trending-smallpara'>For this season</p>
                     <div className='d-lg-flex justify-content-between'>
                         <h3 className='Trending_heading'>Trending & New</h3>
                         <div className='d-lg-block d-none'>
@@ -26,7 +26,7 @@ function Trending() {
                     }
                 </div>
                 <div className="d-md-none d-sm-block col-12 mb-5">
-                    <button className="button w-100">See all</button>
+                    <button className="secondary-button w-100">See all</button>
                 </div>
             </div>
         </div>

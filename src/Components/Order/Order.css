@@ -1,46 +1,46 @@
 
 
-.learn_btn {
+.orderlearn_btn {
     border: 1px solid black;
     padding: 15px 28px;
     color: white;
     background-color: black;
 }
 
-div a {
+.order div a {
     text-decoration: none;
     font-size: 18px;
 }
 
-.touch_btn {
+.ordertouch_btn {
     border: 1px solid black;
     padding: 15px 28px;
     color: black;
     margin-left: 15px;
 }
 
-.touch_btn:hover {
+.ordertouch_btn:hover {
     background-color: black;
     color: white;
 }
 
 .order_para {
-    font-size: var(--font-size);
+    font-size:16px;
     padding-bottom: 28px;
 }
 
 .order-smallpara {
-    font-size: var(--small-font);
+    font-size:14px;
 }
 
 .order_heading {
-    font-size: var(--big-heading);
-    font-family: var(--font-family);
-    width: 278px;
+    font-size: 50px;
+    font-family: sans-serif;
+    width: 306px;
 }
 
 @media only screen and (max-width:768px) {
-    .touch_btn {
+    .ordertouch_btn {
         margin-left: 0px;
         margin-top: 10px;
     }
@@ -55,6 +55,7 @@ div a {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992) {
+    .order,
     .elephant_image img {
         width: 220px;
         height: 346px;
@@ -68,12 +69,11 @@ div a {
     .order_heading {
         font-size: 36px;
     }
-
-    .mt-6 {
+    .order mt-6 {
         margin-top: 48px !important;
     }
 
     .order_btns {
-        padding-bottom: 51px;
+        padding-bottom: 50px;
     }
 }

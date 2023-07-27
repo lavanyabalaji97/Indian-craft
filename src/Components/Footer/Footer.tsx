@@ -1,13 +1,13 @@
-import '../Footer/footer.css'
+import '../Footer/footer.scss'
 
 function Footer() {
     return (
-        <div className="footer_top">
+        <div className="footer footer_top">
             <div className='container'>
                 <div className="row">
                     <div className="col-lg-10 d-flex justify-content-between">
-                        <div className='left_side'>
-                            <h3 className='footer_title col-12'>The Indian Craft House</h3>
+                        <div className='footerleft_side'>
+                            <h3 className='footer_title col-12 mt-5'>The Indian Craft House</h3>
                             <ul className='d-lg-flex d-none pt-5'>
                                 <div className='visa_icon m-1'>
                                     <svg width="34" height="10" viewBox="0 0 34 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,22 +35,22 @@ function Footer() {
                                 </div>
                             </ul>
                         </div>
-                        <div className=" col-lg-6 right_side d-lg-flex justify-content-between d-none d-lg-block">
+                        <div className=" col-lg-6 right_side d-lg-flex d-md-flex justify-content-between d-none d-lg-block">
                             <div className='The_company'>
-                                <h3 className='right-title'>The company</h3>
+                                <h3 className='footerright-title'>The company</h3>
                                 <li><a href=''>Our Story</a></li>
                                 <li><a href=''>Terms of Use</a></li>
                                 <li><a href="">Site Map</a></li>
                             </div>
                             <div className='orders_supports'>
-                                <h3 className='right-title'>orders & Supports</h3>
-                                <li>Contact Us</li>
+                                <h3 className='footerright-title'>orders & Supports</h3>
+                                <li><a href="">Contact Us</a></li>
                                 <li><a href="">Bulk Orders</a></li>
                                 <li><a href="">Rewards</a></li>
                                 <li><a href="">FAQ's</a></li>
                             </div>
-                            <div className='socila_media'>
-                                <h3 className='right-title'>Social Media</h3>
+                            <div className='social_media'>
+                                <h3 className='footerright-title'>Social Media</h3>
                                 <li><a href="">Facebook<i className="bi bi-facebook px-1"></i></a></li>
                                 <li><a href="">Instagram<i className="bi bi-instagram px-1"></i></a></li>
                                 <li><a href="">Pinterest <i className="bi bi-pinterest px-1"></i></a></li>
@@ -59,7 +59,7 @@ function Footer() {
                         </div>
                     </div>
                     {/* mobile footer */}
-                    <div className='d-lg-none col-12'>
+                    <div className='d-lg-none col-12 d-md-none'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">

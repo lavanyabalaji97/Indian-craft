@@ -6,7 +6,7 @@ function Footerend() {
             <div className="row">
                 <div className="col-lg-12 d-flex justify-content-between">
                     <span>© The India Craft House 2022</span>
-                    <a className="footer_border">Curated in India</a>
+                    <a className="footer_border text-decoration-none">Curated in India</a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-.button {
+.primary-button {
     text-decoration: none;
     color: black;
     border: 1px solid black;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.button:hover {
+.primary-button:hover {
     background-color: black;
     color: white;
 }

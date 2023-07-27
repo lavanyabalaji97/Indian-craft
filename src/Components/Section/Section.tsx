@@ -2,10 +2,10 @@ import '../Section/Section.css'
 
 function Section() {
     return (
-        <div className='rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
+        <div className='section rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
             <div className="container padding_100">
                 <div className="row">
-                    <div className="d-lg-flex d-md-flex justify-content-center">
+                    <div className="d-lg-flex d-md-flex justify-content-between">
                         <div className="col-lg-5 col-md-6 col-12 marginleft">
                             <span className="small-title">Our Mission</span>
                             <h3 className='title-name'>Every Purchase has a purpose</h3>
@@ -14,23 +14,14 @@ function Section() {
                                 fair-trade platform, our primary purpose is to support handicraft
                                 workers. With each purchase you make, you can help make a difference.</span>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-12">
-                            <div className="count-lists margin40 d-flex d-md-block paddingleft">
-                                <div className='counting'>
-                                    <span className="counter-count">
-                                        <span className='count11'>21+</span>
-                                        <div className="count-text">STATES</div>
-                                    </span>
-                                </div>
-
-                                <div className="counter-list">
-                                    <span className="counter-count">
-                                        <span className="count11">2000</span>
-                                        <div className="count-text">
-                                            INDIAN ARTISANS
-                                        </div>
-                                    </span>
-                                </div>
+                        <div className="col-lg-6 col-md-6 col-12 d-lg-block d-flex">
+                            <div className='count-lists'>
+                                <h1>21+</h1>
+                                <p>STATES</p>
+                            </div>
+                            <div className='count-lists'>
+                                <h1>2000</h1>
+                                <p>INDIAN ARTISANS</p>
                             </div>
                         </div>
                     </div>
