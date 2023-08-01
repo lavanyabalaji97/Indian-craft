@@ -1,7 +1,9 @@
 import Footer from '../Footer/Footer'
 import Footerend from '../Footer/Footerend'
-import '../Login/Login.css'
+import '../Login/Login.scss'
 import Navbar from '../Navbar/Navbar'
+import {Link} from "react-router-dom"
+
 function Login() {
 
     return (
@@ -30,7 +32,7 @@ function Login() {
                     <a href="" className='text-decoration-none  facebook-icon'>Facebook<i className="bi bi-facebook"></i></a>
                     <a href="" className='text-decoration-none  google-icon'>Google<i className="bi bi-google"></i></a>
                 </div>
-                <p className='login-create'>New to The Indian Craft House <a href="" className='text-dark'>Create Account</a></p>
+                <p className='login-create'>New to The Indian Craft House <Link to={"/Signupform"} className='text-dark'>Create Account</Link></p>
             </div>
             <Footer />
             <Footerend />

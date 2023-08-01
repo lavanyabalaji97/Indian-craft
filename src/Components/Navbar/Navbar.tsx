@@ -1,11 +1,11 @@
 import React from 'react'
 import '../Header/Header.scss'
+import Login from '../Login/Login'
 import { Link } from "react-router-dom"
-
 
 function Navbar() {
     return (
-        <div style={{ backgroundColor: "#f9f2ea" }}>
+        <div>
             <div className="para">
                 <span>Enjoy complimentary shipping on all domestic orders up to Rs. 31,999</span>
             </div>
@@ -22,62 +22,8 @@ function Navbar() {
                                         <div className="offcanvas-header">
                                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div className="offcanvas-body">
-                                            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 d-lg-none">
-                                                <li className="nav-item">
-                                                    <a className="nav-link active" aria-current="page" href="#">HOME</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">OFFERS</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY WOMEN</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY MEN</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY KIDS</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY HOME AND LIVING</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY WORK</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY GIFTS</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY CRAFTS</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY STATE</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY COLLECTIONS</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">SHOP BY MEN</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">OUR STORY</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">WHOLESALE</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">CONTACT</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <a className="nav-link" href="#">LOGIN</a>
-                                                </li>
-                                            </ul>
-
-                                        </div>
+                                        </div>                                      
                                     </div>
-
                                     <div className="d-lg-none d-flex justify-content-center">
                                         <button className="nav-link navbtn">
                                             <i className="bi bi-search"></i>
@@ -93,6 +39,7 @@ function Navbar() {
                                         <ul className="navbar-nav">
                                             <li className="nav-item">
                                                 <Link className="nav-link" to={"/"}>Home</Link>
+                                                <div className='underline'></div>
                                             </li>
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="">Shop</Link>
@@ -114,7 +61,7 @@ function Navbar() {
                                 </nav>
                             </div>
                             <div className="col-lg-3 d-none d-lg-inline align-self-center">
-                                <div className="d-flex justify-content-lg-center justify-content-end ">
+                                <div className="d-flex justify-content-lg-center justify-content-end">
                                     <button className="nav-link navbtn"><Link to={"/Login"} className='text-decoration-none text-black'>Login</Link></button>
                                     <button className="nav-link navbtn">
                                         <i className="bi bi-search"></i>

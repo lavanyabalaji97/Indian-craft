@@ -1,5 +1,5 @@
 :root {
-  --font-size: 20px;
+  --medium-size: 20px;
   --small-font: 14px;
   --big-heading: 50px;
   --font-family: "sans-serif";
@@ -10,4 +10,11 @@
   background-color: initial;
   text-transform: capitalize;
   font-size: 16px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }

@@ -1,0 +1,53 @@
+    .signup{
+        border: 1px solid #ddd;
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+    
+    .create-account input{
+        text-decoration: none;
+        color: white;
+        background-color: #aeaba0;
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+    .create-account input:hover{
+        background-color: inherit;
+        color: black;
+        border: 1px solid black;
+    }
+    .signup-heading{
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    .title-para{
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+    input{
+        border: none;
+        background-color: inherit;
+        outline: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 10px;
+    }
+    .signup-para{
+        text-align: center;
+        padding: 10px;
+    }
+    .signup-para a{
+        color: black;
+        font-weight: 600;
+        
+    }
+    .signup label{
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .input-field{
+        padding: 20px;
+    }
