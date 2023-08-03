@@ -1,7 +1,7 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import Card from "../Card/Card"
-import '../Men/Men.css'
+import '../Men/Men.scss'
 
 function Men() {
     return (

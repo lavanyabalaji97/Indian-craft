@@ -1,0 +1,65 @@
+.banner {
+    .black-background {
+        background-image: url("../../../public/Asserts/black.webp");
+        background-color: #46402b;
+        padding: 100px;
+        color: white;
+    }
+
+    .banner_section1 {
+        margin-left: 150px;
+    }
+
+    .banner_link {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .banner-span {
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+    .banner-para {
+        font-size: 13px;
+        margin-left: 18px;
+        text-transform: uppercase;
+    }
+
+    .banner-heading {
+        margin-bottom: 25px;
+        font-family: var(--font-family);
+    }
+
+    @media only screen and (max-width: 768px) {
+        .black-background {
+            padding: 50px;
+        }
+
+        .banner_section1 {
+            margin-left: 0px;
+        }
+
+        .banner_section2 {
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+
+        .banner-span {
+            font-size: 36px;
+        }
+
+        .banner-para {
+            margin-left: 0px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .banner_section1 {
+            margin-left: 20px;
+        }
+        .banner_section2 {
+            margin-right: 130px;
+        }
+    }
+}

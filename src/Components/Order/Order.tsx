@@ -1,5 +1,5 @@
 import elephant from '../../Asserts/elephant.webp'
-import '../Order/Order.css'
+import '../Order/Order.scss'
 
 function Order() {
     return (

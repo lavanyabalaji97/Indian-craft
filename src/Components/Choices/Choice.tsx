@@ -1,14 +1,14 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import Card from "../Card/Card"
-import '../Choices/Choices.css'
+import '../Choices/Choices.scss'
 function Choice() {
     return (
         <div className='choices container mt-5'>
             <div className="row">
-                <p className="choice_smallpara">For Women</p>
+                <p className="smallpara">For Women</p>
                 <div className="col-lg-12 col-md-6 d-lg-flex col-12 justify-content-between mb-5">
-                    <h3 className="choice-heading">Choices for <br/> the Season</h3>
+                    <h3 className="heading">Choices for <br/> the Season</h3>
                     <div className="d-lg-block d-none">
                         <Button />
                     </div>

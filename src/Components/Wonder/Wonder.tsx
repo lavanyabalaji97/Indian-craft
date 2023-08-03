@@ -1,7 +1,7 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import Card from "../Card/Card"
-import '../Wonder/Wonder.css'
+import '../Wonder/Wonder.scss'
 
 
 function Wonder() {

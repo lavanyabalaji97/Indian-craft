@@ -1,0 +1,18 @@
+.craft {
+    .craft-para {
+        font-size: var(--medium-size);
+    }
+    .craft-smallpara {
+        font-size: var(--small-font);
+    }
+    .craft-heading {
+        font-size: var(--big-heading);
+        width: 378px;
+        font-family: var(--font-family);
+    }
+    @media only screen and (max-width: 768px) {
+        .craft-heading {
+            font-size: 36px;
+        }
+    }
+}

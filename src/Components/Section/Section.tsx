@@ -1,9 +1,9 @@
-import '../Section/Section.css'
+import '../Section/Section.scss'
 
 function Section() {
     return (
-        <div className='section rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
-            <div className="container padding_100">
+        <div className='section' style={{ backgroundColor: "#E9E2D8" }}>
+            <div className="container sectionimage padding_100">
                 <div className="row">
                     <div className="d-lg-flex d-md-flex justify-content-between">
                         <div className="col-lg-5 col-md-6 col-12 marginleft">

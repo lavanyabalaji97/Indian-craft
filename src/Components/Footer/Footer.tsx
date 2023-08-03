@@ -2,7 +2,7 @@ import './footer.scss'
 
 function Footer() {
     return (
-        <div className="footer footer_top">
+        <div className="footer footer_top p-5">
             <div className='container'>
                 <div className="row">
                     <div className="col-lg-10 d-flex justify-content-between">
@@ -59,7 +59,7 @@ function Footer() {
                         </div>
                     </div>
                     {/* mobile footer */}
-                    <div className='d-lg-none col-12 d-md-none'>
+                    <div className='col-12 d-md-none'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">

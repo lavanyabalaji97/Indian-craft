@@ -1,0 +1,98 @@
+.section {
+    .title-name {
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .content {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #27221d;
+        padding-top: 35px;
+        display: block;
+    }
+
+    .count-lists h1 {
+        font-size: 70px;
+        font-weight: 700;
+        font-family: var(--font-family);
+    }
+
+    .marginleft {
+        margin-left: 10px;
+    }
+
+    .padding_100 {
+        padding: 41px;
+    }
+
+    .small-title {
+        color: black;
+        font-size: 16px;
+    }
+
+    .sectionimage {
+        background-image: url("../../Asserts/tree.webp");
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-right: 0px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .rowimage {
+            background-size: 120px;
+            background-position-y: bottom;
+        }
+
+        .marginleft {
+            width: 100%;
+        }
+
+        .title-name {
+            font-size: 36px;
+        }
+
+        .content {
+            font-size: 16px;
+        }
+
+        .count-lists h1 {
+            font-size: 36px;
+            padding: 10px;
+        }
+
+        .count-lists span {
+            font-size: 13px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .main-content {
+            padding: 0px 0px 0px 0px;
+            margin: 0px;
+        }
+
+        .title-name {
+            font-size: 36px;
+        }
+
+        .content {
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            color: #27221d;
+            padding-top: 35px;
+            display: block;
+        }
+
+        .sectionimage {
+            background-size: 234px 380px;
+        }
+
+        .paddingleft {
+            padding-left: 55px;
+        }
+    }
+}

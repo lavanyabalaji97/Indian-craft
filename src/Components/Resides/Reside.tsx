@@ -1,11 +1,11 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import Card from "../Card/Card"
-import '../Resides/Reside.css'
+import '../Resides/Reside.scss'
 
 function Reside() {
     return (
-        <div className='Reside container mt-5 mb-5'>
+        <div className='reside container mt-5 mb-5'>
             <div className="row">
                 <p className="reside-smallpara">For the home</p>
                 <div className="col-lg-12 col-md-12 col-12  d-lg-flex justify-content-between mb-5">

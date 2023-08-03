@@ -1,6 +1,6 @@
 import human from '../../Asserts/humans.webp'
 import smiley from '../../Asserts/smiley-girl.webp'
-import '../Division/Division.css'
+import '../Division/Division.scss'
 
 function Division() {
     return (

@@ -6,7 +6,7 @@ import Signupform from './Components/Signup/Signupform'
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#f9f2ea"}}>
+    <div style={{ backgroundColor: "#f9f2ea",overflow:"hidden"}}>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />

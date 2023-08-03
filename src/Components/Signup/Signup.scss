@@ -1,33 +1,33 @@
-    .signup{
-        border: 1px solid #ddd;
-        margin-top: 150px;
-        margin-bottom: 200px;
+.signup {
+    .signup-margin {
+        margin-top: 8em !important;
+        margin-bottom: 10em;
     }
-    
-    .create-account input{
+
+    .create-account input {
         text-decoration: none;
         color: white;
         background-color: #aeaba0;
         padding: 15px;
         font-size: 20px;
         margin-top: 20px;
-
+        border-bottom: none;
     }
-    .create-account input:hover{
+    .create-account input:hover {
         background-color: inherit;
         color: black;
         border: 1px solid black;
     }
-    .signup-heading{
+    .signup-heading {
         font-size: 50px;
         font-weight: 600;
         padding-top: 10px;
     }
-    .title-para{
+    .title-para {
         font-size: 20px;
         padding-bottom: 50px;
     }
-    input{
+    input {
         border: none;
         background-color: inherit;
         outline: none;
@@ -35,19 +35,26 @@
         width: 100%;
         padding: 10px;
     }
-    .signup-para{
+    .signup-para {
         text-align: center;
         padding: 10px;
     }
-    .signup-para a{
+    .signup-para a {
         color: black;
         font-weight: 600;
-        
     }
-    .signup label{
+    .signup label {
         text-transform: uppercase;
         font-size: 13px;
     }
-    .input-field{
+    .input-field {
         padding: 20px;
     }
+
+    @media only screen and (max-width: 768px) {
+        .signup-margin {
+            margin-top: 2em !important;
+            margin-bottom: 5em;
+        }
+    }
+}

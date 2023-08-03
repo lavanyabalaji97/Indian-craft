@@ -1,6 +1,5 @@
-import React from 'react'
 import '../Header/Header.scss'
-import Login from '../Login/Login'
+import '../Navbar/Navbar.scss'
 import { Link } from "react-router-dom"
 
 function Navbar() {
@@ -10,19 +9,19 @@ function Navbar() {
                 <span>Enjoy complimentary shipping on all domestic orders up to Rs. 31,999</span>
             </div>
             <div className="navbar-sticky">
-                <div className="navbar-light bg-light navbar-top">
+                <div className="navbar-light navbar-top">
                     <div className="Header container" >
                         <div className="row">
                             <div className="col-lg-9 col-md-12 col-12 d-lg-inline">
-                                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                                <nav className="navbar navbar-expand-lg navbar-light">
                                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
-                                    <div className="offcanvas offcanvas-end"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                    <div className="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                         <div className="offcanvas-header">
                                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>                                      
+                                        </div>
                                     </div>
                                     <div className="d-lg-none d-flex justify-content-center">
                                         <button className="nav-link navbtn">
@@ -38,23 +37,22 @@ function Navbar() {
                                     <div className="collapse navbar-collapse" id="navbarNav">
                                         <ul className="navbar-nav">
                                             <li className="nav-item">
-                                                <Link className="nav-link" to={"/"}>Home</Link>
-                                                <div className='underline'></div>
+                                                <Link className="nav-link" to={"/"}><div className='navdiv'>Home</div></Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="">Shop</Link>
+                                                <Link className="nav-link" to=""><div className="navdiv">Shop</div></Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="#">Our Story</Link>
+                                                <Link className="nav-link" to="#"><div className="navdiv">Our Story</div></Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="#">wholeSale</Link>
+                                                <Link className="nav-link" to="#"><div className="navdiv">wholeSale</div></Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="#">Contact</Link>
+                                                <Link className="nav-link" to="#"><div className="navdiv">Contact</div></Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="#">Offer</Link>
+                                                <Link className="nav-link" to="#"><div className="navdiv">Offer</div></Link>
                                             </li>
                                         </ul>
                                     </div>

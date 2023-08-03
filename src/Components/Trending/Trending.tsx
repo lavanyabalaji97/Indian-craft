@@ -1,7 +1,7 @@
 import Button from '../Button/Button'
 import Card from '../Card/Card'
 import data from '../../Data.json'
-import '../Trending/Trending.css'
+import '../Trending/Trending.scss'
 
 function Trending() {
     return (

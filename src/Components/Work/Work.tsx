@@ -1,7 +1,7 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import Card from "../Card/Card"
-import '../Work/Work.css'
+import '../Work/Work.scss'
 function Work() {
     return (
         <div className='Work container mt-5'>

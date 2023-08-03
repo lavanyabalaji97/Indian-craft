@@ -1,7 +1,7 @@
 import data from '../../Data.json'
 import Button from '../Button/Button'
 import Card from '../Card/Card'
-import '../Craft/Craft.css'
+import '../Craft/Craft.scss'
 
 function Craft() {
     return (

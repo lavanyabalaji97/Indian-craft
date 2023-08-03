@@ -1,0 +1,18 @@
+.division {
+  @media only screen and (max-width: 768px) {
+    .division-human {
+      width: 381px;
+      margin-bottom: 10px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .division-human {
+      width: 467px;
+    }
+    .division-girl {
+      width: 224px;
+      margin-left: 134px;
+    }
+  }
+}
+
