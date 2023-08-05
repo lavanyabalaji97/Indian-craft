@@ -1,6 +1,6 @@
 import data from '../../Data.json'
 import Button from '../Button/Button'
-import Card from '../Card/Card'
+import Product from '../Product/Productcard'
 import '../Craft/Craft.scss'
 
 function Craft() {
@@ -19,7 +19,7 @@ function Craft() {
                     {
                         data.craft.map((item: any) => {
                             return <div key={item.id}>
-                                <Card text={item.title} image={item.img} price={item.price} />
+                                <Product text={item.title} image={item.img} price={item.price} />
                             </div>
                         })
                     }

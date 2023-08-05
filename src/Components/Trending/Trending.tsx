@@ -1,5 +1,5 @@
 import Button from '../Button/Button'
-import Card from '../Card/Card'
+import Product from '../Product/Productcard'
 import data from '../../Data.json'
 import '../Trending/Trending.scss'
 
@@ -20,7 +20,7 @@ function Trending() {
                     {
                         data.Trending.map((item: any) => {
                             return <div key={item.id} className='col-lg-3 col-md-4 col-6'>
-                                <Card text={item.title} image={item.img} price={item.price} />
+                                <Product text={item.title} image={item.img} price={item.price} />
                             </div>
                         })
                     }

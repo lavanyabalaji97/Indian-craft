@@ -1,6 +1,6 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
-import Card from "../Card/Card"
+import Product from '../Product/Productcard'
 import '../Resides/Reside.scss'
 
 function Reside() {
@@ -20,7 +20,7 @@ function Reside() {
                     {
                         data.Homeproducts.map((item: any) => {
                             return <div key={item.id} className='col-lg-3 col-md-4 col-6'>
-                                <Card text={item.title} image={item.img} price={item.price} />
+                                <Product text={item.title} image={item.img} price={item.price} />
                             </div>
                         })
                     }

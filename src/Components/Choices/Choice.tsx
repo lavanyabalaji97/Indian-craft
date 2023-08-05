@@ -1,7 +1,8 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
-import Card from "../Card/Card"
+import Productcard from '../Product/Productcard'
 import '../Choices/Choices.scss'
+
 function Choice() {
     return (
         <div className='choices container mt-5'>
@@ -17,7 +18,7 @@ function Choice() {
                     {
                         data.choice.map((item: any) => {
                             return <div key={item.id} className='col-lg-3 col-md-4 col-6'>
-                                <Card text={item.title} image={item.img} price={item.price} />
+                                <Productcard text={item.title} image={item.img} price={item.price} />
                             </div>
                         })
                     }

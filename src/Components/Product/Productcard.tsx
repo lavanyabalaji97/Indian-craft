@@ -1,4 +1,6 @@
-import '../Card/Card.scss'
+import '../Product/ProductCard.scss'
+
+
 interface Props {
     price: string;
     image: string;
