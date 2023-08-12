@@ -27,9 +27,15 @@
         right: 25px;
         top: 10px;
     }
+    .heart-icon title {
+        position: relative;
+        text-align: start;
+    }
+  
+   
 
     @media only screen and (max-width: 768px) {
-        .bi-heart {
+        .heart-heart {
             margin-left: 285px;
         }
     }

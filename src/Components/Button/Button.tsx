@@ -2,7 +2,7 @@ import '../Button/Button.scss'
 
 function Button() {
     return (
-        <a href='' className='primary-button'>See All</a>
+        <a href='/see' className='primary-button'>See All</a>
     )
 }
 

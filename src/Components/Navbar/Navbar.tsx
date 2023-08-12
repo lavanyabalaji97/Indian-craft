@@ -1,10 +1,34 @@
+import { useEffect, useState } from 'react';
 import '../Header/Header.scss'
 import '../Navbar/Navbar.scss'
 import { Link } from "react-router-dom"
 
 function Navbar() {
+    const [scrolled, setScrolled] = useState('');
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setScrolled('scrolled');
+                console.log("scrolled")
+            } else {
+                setScrolled('');
+            }
+        };
+        const isLoggedIn = JSON.parse(localStorage.getItem('isLoggedIn') || 'false');
+
+
+        window.addEventListener('scroll', handleScroll);
+        const storedIsLoggedIn = localStorage.getItem('isLoggedIn');
+        setIsLoggedIn(storedIsLoggedIn === 'true')
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    
     return (
-        <div>
+        <div className={`navbar-container ${scrolled ? 'navbar-scrolled' : ''}`}>
             <div className="para">
                 <span>Enjoy complimentary shipping on all domestic orders up to Rs. 31,999</span>
             </div>
@@ -13,7 +37,7 @@ function Navbar() {
                     <div className="Header container" >
                         <div className="row">
                             <div className="col-lg-9 col-md-12 col-12 d-lg-inline">
-                                <nav className="navbar navbar-expand-lg navbar-light">
+                                <nav className="{`navbar-container ${scrollClass}`} navbar navbar-expand-lg navbar-light">
                                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
@@ -60,7 +84,15 @@ function Navbar() {
                             </div>
                             <div className="col-lg-3 d-none d-lg-inline align-self-center">
                                 <div className="d-flex justify-content-lg-center justify-content-end">
-                                    <button className="nav-link navbtn"><Link to={"/Login"} className='text-decoration-none text-black'>Login</Link></button>
+                                    {isLoggedIn ? (
+                                        <div className="user-icon">
+                                            <i className="bi bi-person"></i>
+                                        </div>
+                                    ) : (
+                                        <button className="nav-link navbtn">
+                                            <Link to={"/Login"} className='text-decoration-none text-black'>Login</Link>
+                                        </button>
+                                    )}
                                     <button className="nav-link navbtn">
                                         <i className="bi bi-search"></i>
                                     </button>

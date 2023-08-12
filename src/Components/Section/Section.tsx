@@ -2,7 +2,7 @@ import '../Section/Section.scss'
 
 function Section() {
     return (
-        <div className='section' style={{ backgroundColor: "#E9E2D8" }}>
+        <div className='section p-5' style={{ backgroundColor: "#E9E2D8" }}>
             <div className="container sectionimage padding_100">
                 <div className="row">
                     <div className="d-lg-flex d-md-flex justify-content-between">
